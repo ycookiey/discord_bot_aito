@@ -1,9 +1,9 @@
-import settings
+import os
 import discord
 import re
 from activate_server import activate_server
 
-TOKEN = settings.TOKEN
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
