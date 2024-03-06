@@ -3,7 +3,7 @@ import discord
 import re
 from activate_server import activate_server
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
