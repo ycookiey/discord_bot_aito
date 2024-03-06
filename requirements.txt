@@ -1,3 +1,5 @@
 discord.py==2.3.2
 Flask==3.0.2
 python-dotenv==1.0.1
+google-generativeai==0.4.0
+IPython==8.8.0
